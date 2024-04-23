@@ -1,0 +1,42 @@
+/* Modern CSS Reset */
+
+/* Box sizing border-box */
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *::before, *::after {
+    box-sizing: inherit;
+  }
+  
+  /* Remove default margin and padding */
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Remove default list styles */
+  ol, ul {
+    list-style: none;
+  }
+  
+  /* Remove default hyperlink styles */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Set default font family and size */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  /* Additional resets for form elements, if needed */
+  input, button, textarea, select {
+    font: inherit;
+    margin: 0;
+  }
+  
+  /* Optionally, you can add more resets for other elements as needed */
+  
