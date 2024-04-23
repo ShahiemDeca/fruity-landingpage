@@ -63,7 +63,7 @@ const FloatingParticles = ({ particles }) => {
       {particlesGroup.map((particle, index) => (
         <img
           key={index}
-          ref={(el) => (particlesRef.current[index] = el)}
+          ref={(element) => (particlesRef.current[index] = element)}
           src={particle.src}
           className="particles-object"
           style={{
